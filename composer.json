@@ -1,0 +1,13 @@
+{
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "retamayo/absl": "^1.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "XPA\\Classes\\": "src/classes/"
+        },
+        "files": ["src/helpers/functions.php"]
+    }
+}
